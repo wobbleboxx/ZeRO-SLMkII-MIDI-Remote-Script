@@ -6,6 +6,7 @@ I always wanted to customize the controller to my needs and so this Midi Remote 
 
 Features overview:
 | Controls | Operation |
+| ------------- | -------- |
 | Ring Encoders | Track Send 1 |
 | Poties | Track Pan |
 | Pads | Custom Actions (view Custom Actions section) |
@@ -21,6 +22,8 @@ Features overview:
 - A track can be selected by pressing it's arm button twice (arm on -> arm off)
 
 Custom Actions:
+| Pad | Action |
+| ------------- |--------|
 | Pad 1 | Toggle metronome on/off |
 | Pad 2 | Tap tempo |
 | Pad 3 | Save live set |
