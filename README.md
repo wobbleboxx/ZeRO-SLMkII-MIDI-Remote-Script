@@ -4,7 +4,7 @@ Midi Remote Script for the novation ZeRO SLMkII and Ableton Live
 The novation ZeRO SLMkII isn't supported anymore by novation. Also the Automap software is out of date and didn't bring much for customization.
 I always wanted to customize the controller to my needs and so this Midi Remote Script for Ableton Live is what I built.
 
-Features overview:
+## Features overview:
 
 | Controls | Operation |
 | --- | --- |
@@ -22,7 +22,7 @@ Features overview:
 - The display only shows the track names, no parameter values (use your computer screen for detailed parameter values)
 - A track can be selected by pressing it's arm button twice (arm on -> arm off)
 
-Custom Actions:
+## Custom Actions:
 
 | Pad | Action |
 | --- | --- | 
@@ -35,11 +35,11 @@ Custom Actions:
 | Pad 7 | Undo |
 | Pad 8 | Add midi track |
 
-Support:
+## Support:
 - This has only been tested with the novation ZeRO SLMkII
 - This has only been tested with Live 9.7.5
 
-Known bugs:
+## Known bugs:
 - Add audio track button is adding a midi track
     At this point I have no idea why the function "create_audio_track" is adding a midi track. Bug in the Live API?
 - Screen is empty or showing "Ableton is OFFLINE" when using the right side controls
@@ -49,7 +49,7 @@ Known bugs:
 - If the controller is turned on after Live is running, sometimes the Remote Script will not run.
     Just turn on the controller before starting Live and it should be fine.
 
-How to use / Installation:
+## How to use / install:
 
 1. Download a copy of the "ZeRO-SLMkII-Midi-Remote-Script" folder
 2. Copy the folder into /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/
@@ -57,6 +57,7 @@ How to use / Installation:
 4. Select "ZeRO-SLMkII-Midi-Remote-Script" in Live -> Preferences -> MIDI -> Control Surface with the controller input and output on port 1
 5. Select "track" and "remote" for the input and output of the MIDI ports
 
+## Note
 Feel free to use it on your own, but here are some considerations:
 - Use at your own risk
 - Modify at your heart's desire; let me know if you built something cool with it :) (not mandatory)
