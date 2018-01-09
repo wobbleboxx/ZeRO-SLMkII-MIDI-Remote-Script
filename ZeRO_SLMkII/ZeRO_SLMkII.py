@@ -6,9 +6,9 @@ from consts import *
 
 class ZeRO_SLMkII():
     def __init__(self, c_instance):
+        self.__c_instance = c_instance
         self.__c_instance.log_message("Setting up ZeRO_SLMkII.")
 
-        self.__c_instance = c_instance
         self.__automap_has_control = False
         self.__display_controller = DisplayController(self, c_instance)
         self.__mixer_controller = MixerController(self, self.__display_controller, c_instance)
