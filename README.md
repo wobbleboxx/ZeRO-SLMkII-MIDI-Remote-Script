@@ -51,10 +51,10 @@ I always wanted to customize the controller to my needs and so this Midi Remote 
 
 ### How to use / install:
 
-1. Download a copy of the "ZeRO-SLMkII-Midi-Remote-Script" folder
+1. Download a copy of the "ZeRO_SLMkII" folder
 2. Copy the folder into /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/
 3. Select the Ableton template on the controller
-4. Select "ZeRO-SLMkII-Midi-Remote-Script" in Live -> Preferences -> MIDI -> Control Surface with the controller input and output on port 1
+4. Select "ZeRO_SLMkII" in Live -> Preferences -> MIDI -> Control Surface with the controller input and output on port 1
 5. Select "track" and "remote" for the input and output of the MIDI ports
 
 ### Note
