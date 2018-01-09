@@ -1,8 +1,10 @@
 # ZeRO-SLMkII-Midi-Remote-Script
-Midi Remote Script for the novation ZeRO SLMkII and Ableton Live
+MIDI Remote Script for the novation ZeRO SLMkII and Ableton Live
 
 The novation ZeRO SLMkII isn't supported anymore by novation. Also the Automap software is out of date and didn't bring much for customization.
-I always wanted to customize the controller to my needs and so this Midi Remote Script for Ableton Live is what I built.
+I always wanted to customize the controller to my needs and so this MIDI Remote Script for Ableton Live is what I built.
+
+![Image of the controller showing the different sections used in the script](https://github.com/wobbleboxx/ZeRO-SLMkII-Midi-Remote-Script/blob/master/ControlSheet.png)
 
 ### Features overview:
 
@@ -28,24 +30,24 @@ I always wanted to customize the controller to my needs and so this Midi Remote 
 | --- | --- | 
 | Pad 1 | Toggle metronome on/off |
 | Pad 2 | Tap tempo |
-| Pad 3 | Save live set |
+| Pad 3 | Save the Live set |
 | Pad 4 | Add audio track |
 | Pad 5 | Add return track |
 | Pad 6 | undefined |
 | Pad 7 | Undo |
-| Pad 8 | Add midi track |
+| Pad 8 | Add MIDI track |
 
 ### Support:
 - This has only been tested with the novation ZeRO SLMkII
 - This has only been tested with Live 9.7.5
 
 ### Known bugs:
-- Add audio track button is adding a midi track
-    At this point I have no idea why the function "create_audio_track" is adding a midi track. Bug in the Live API?
+- Add audio track button is adding a MIDI track
+    At this point I have no idea why the function "create_audio_track" is adding a MIDI track.
 - Screen is empty or showing "Ableton is OFFLINE" when using the right side controls
     This is to no reason to me as well. I tried for some hours figuring out why this happens, but I think there might be something I don't see in the controller itself.
-- Saving the live set will only work on macOS.
-    In fact this is not a live command but the pad is mapped to the shortcut CTRL + S. So if you mapped this shortcut to something else, that is what will be called instead.
+- Saving the Live set only works on macOS.
+    In fact this is not a Live command but the pad is mapped to the shortcut CTRL + S. So if you mapped this shortcut to something else, that is what will be called instead.
 - If the controller is turned on after Live is running, sometimes the Remote Script will not run.
     Just turn on the controller before starting Live and it should be fine.
 
@@ -56,6 +58,12 @@ I always wanted to customize the controller to my needs and so this Midi Remote 
 3. Select the Ableton template on the controller
 4. Select "ZeRO_SLMkII" in Live -> Preferences -> MIDI -> Control Surface with the controller input and output on port 1
 5. Select "track" and "remote" for the input and output of the MIDI ports
+
+![Image showing the settings in Live](https://github.com/wobbleboxx/ZeRO-SLMkII-Midi-Remote-Script/blob/master/LiveSettings.png)
+
+## Todo:
+- Fix the display bug
+- Add comments to code
 
 ### Note
 Feel free to use it on your own, but here are some considerations:
