@@ -5,6 +5,7 @@ The novation ZeRO SLMkII isn't supported anymore by novation. Also the Automap s
 I always wanted to customize the controller to my needs and so this Midi Remote Script for Ableton Live is what I built.
 
 Features overview:
+
 | Controls | Operation |
 | --- | --- |
 | Ring Encoders | Track Send 1 |
@@ -22,6 +23,7 @@ Features overview:
 - A track can be selected by pressing it's arm button twice (arm on -> arm off)
 
 Custom Actions:
+
 | Pad | Action |
 | --- | --- | 
 | Pad 1 | Toggle metronome on/off |
